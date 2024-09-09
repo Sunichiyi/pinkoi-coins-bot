@@ -149,7 +149,7 @@ export default class PinkoiBot {
     const missionKey = mission.mission_key
     log.debug('Solving mission: %s', missionKey)
 
-    const shopId = 'ekax'
+    const shopId = '2pi-creative'
     try {
       await this.addFavShop(shopId)
       await sleep()
@@ -207,7 +207,7 @@ export default class PinkoiBot {
 
     const missionKey = mission.mission_key
     const favListName = 'pinkoi-coins-bot'
-    const itemIds = ['6k5tF2uK', 'zDzEKiTR', 'YRcUicek'] // cspell: disable-line
+    const itemIds = ['SpZw8Vmm', 'aQq9uTKZ', 'easUYbtn'] // cspell: disable-line
 
     log.debug('Solving mission: %s', missionKey)
     try {
